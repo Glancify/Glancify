@@ -7,6 +7,6 @@ A chrome extension for all social networks.
 * [Piyush Sikarwal](https://github.com/psikarwal/)
 * [Neelansh Sahai](https://github.com/neelanshsahai)
 * [Saurabh Srivastava](https://github.com/simsausaurabh)
-* [Sakhee Jain](https://github.com/sakshee-19)
+* [Sakshee Jain](https://github.com/sakshee-19)
 * [Himanshu Singhal](https://github.com/himanshusn)
 * Deepak Sandrana
