@@ -9,7 +9,7 @@
 \setlength{\arrayrulewidth}{1mm}
 \setlength{\tabcolsep}{18pt}
 \renewcommand{\arraystretch}{1.6}
-\renewcommand{\today}{September 7 , 2017}
+\date{October 7 , 2017}
 
 
 \begin{document}
@@ -168,10 +168,13 @@ A short video tutorial will be provided for getting to know the functionality of
 Our project would be constrained under certain circumstances. These
 include:
 \begin{itemize}
-    \item  The total time available for coding and implementation.
 
     \item Designing a lightweight UI, so that the extension works properly.
-\end{itemize}
+
+
+    \item Material design will be used in UI designing.
+    \item Team skills.
+    \end{itemize}
 
 \section{External Interface Requirements}
 \subsection{User Interface}
@@ -203,6 +206,7 @@ other devices that can emulate the PC version of Google
 Chrome above 38.0.0
 
 \subsection{Software Interface}
+The framework designed to fetch data from the web servers of social networking platform and displaying the content in extension in browser acts as an interface designed in HTML, JavaScript and CSS. The framework will use user credentials to generate Auth Token.
 
 \subsection{ Communications Interfaces}
 This will be a Chrome extension, but may still link to web
@@ -216,6 +220,19 @@ application will need to be synchronized, so that the
 information displayed to the user is always up to date.
 
 \section{Functional Requirements}
+\subsection{Your Name}
+\begin{itemize}
+\item Description: Very first time when user installs the extension, extension will ask for his/her name. If he/she provides the name, further on whenever he/she will reopen the new tab/browser, It will show "Welcome <User Name>".
+
+\item Priority: Medium
+
+\item Stimulus/Response Process:\\
+Input: Enter the Name and Press Enter.\\
+Output: Shows "Welcome <Name>".\\
+Process: Save provided name to storage.
+
+
+\end{itemize}
 \subsection{Add}
 \begin{itemize}
     \item Description: If a user wants to link a new account with the
