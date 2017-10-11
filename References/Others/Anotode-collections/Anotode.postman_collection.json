@@ -1,0 +1,200 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Anotode",
+		"_postman_id": "844fa7ab-a05a-229f-4d28-a895996a699b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://anotode.herokuapp.com/api/users/",
+			"request": {
+				"url": "http://anotode.herokuapp.com/api/users/",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "Yourmail@gmail.com",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "shortpass",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://anotode.herokuapp.com/api/users/",
+			"request": {
+				"url": "http://anotode.herokuapp.com/api/users/",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "Yourmail@gmail.com",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "shortpass",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://anotode.herokuapp.com/api/login/",
+			"request": {
+				"url": "http://anotode.herokuapp.com/api/login/",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "Yourmail@gmail.com",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "shortpass",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://anotode.herokuapp.com/api/highlights?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1N2Y2OWIxMGM4NWVhYjAwMTJlMmUyNTYiLCJpYXQiOjE0NzU3ODAwMjJ9.fviw49yMrI-RKotwT90K5dVUVIM9bpyuIt-zNFHUZrg",
+			"request": {
+				"url": "http://anotode.herokuapp.com/api/highlights?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1N2Y2OWIxMGM4NWVhYjAwMTJlMmUyNTYiLCJpYXQiOjE0NzU3ODAwMjJ9.fviw49yMrI-RKotwT90K5dVUVIM9bpyuIt-zNFHUZrg",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "text",
+							"value": "You and I",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "tags",
+							"value": "chill",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://anotode.herokuapp.com/api/highlights?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1N2Y2OWIxMGM4NWVhYjAwMTJlMmUyNTYiLCJpYXQiOjE0NzU3ODAwMjJ9.fviw49yMrI-RKotwT90K5dVUVIM9bpyuIt-zNFHUZrg",
+			"request": {
+				"url": "http://anotode.herokuapp.com/api/highlights?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1N2Y2OWIxMGM4NWVhYjAwMTJlMmUyNTYiLCJpYXQiOjE0NzU3ODAwMjJ9.fviw49yMrI-RKotwT90K5dVUVIM9bpyuIt-zNFHUZrg",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "text",
+							"value": "You and I",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "tags",
+							"value": "chill, cool, romantic",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://anotode.herokuapp.com/api/highlights?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1N2Y2OWIxMGM4NWVhYjAwMTJlMmUyNTYiLCJpYXQiOjE0NzU3ODAwMjJ9.fviw49yMrI-RKotwT90K5dVUVIM9bpyuIt-zNFHUZrg",
+			"request": {
+				"url": "http://anotode.herokuapp.com/api/highlights?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1N2Y2OWIxMGM4NWVhYjAwMTJlMmUyNTYiLCJpYXQiOjE0NzU3ODAwMjJ9.fviw49yMrI-RKotwT90K5dVUVIM9bpyuIt-zNFHUZrg",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "text",
+							"value": "A stitch in time saves nine",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "tags",
+							"value": "time management, hard",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://anotode.herokuapp.com/api/highlights?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1N2Y2OWIxMGM4NWVhYjAwMTJlMmUyNTYiLCJpYXQiOjE0NzU3ODAwMjJ9.fviw49yMrI-RKotwT90K5dVUVIM9bpyuIt-zNFHUZrg",
+			"request": {
+				"url": "http://anotode.herokuapp.com/api/highlights?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1N2Y2OWIxMGM4NWVhYjAwMTJlMmUyNTYiLCJpYXQiOjE0NzU3ODAwMjJ9.fviw49yMrI-RKotwT90K5dVUVIM9bpyuIt-zNFHUZrg",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "text",
+							"value": "A stitch in time saves nine",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "tags",
+							"value": "time management, hard",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

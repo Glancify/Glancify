@@ -9,4 +9,4 @@ A chrome extension for all social networks.
 * [Saurabh Srivastava](https://github.com/simsausaurabh)
 * [Sakshee Jain](https://github.com/sakshee-19)
 * [Himanshu Singhal](https://github.com/himanshusn)
-* Deepak Sandrana
+* [Deepak Sandrana](https://github.com/DeepakSandy)

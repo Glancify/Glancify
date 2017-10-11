@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabu}
+\usepackage[table]{xcolor}
+ 
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.6}
+\renewcommand{\today}{October 05, 2016}
+
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+		        
+		%\vspace*{1cm}
+		
+		\LARGE{\textbf{RISK MANAGEMENT REPORT}}
+		        
+		\vspace{1.5cm}
+		      
+		\textbf{Glancify} \\
+		\small{Version 1.1}
+		
+		\vspace{0.5cm}
+		\includegraphics[width=0.17\textwidth]{GLANCIFY.PNG} \\
+	
+					
+		\vspace{2cm}
+		        
+		\large{\textbf{Authors:}}\\
+		\large{HIMANSHU SINGHAL (201551014)}
+					
+		\vspace{1.5cm}
+						
+		\large{October, 2017}
+						
+	\end{center}
+\end{titlepage}
+\newpage
+\textbf{Team members :} \\
+\begin{center}
+	\begin{tabular}{ |m{10em} m{8em} m{9em}|}
+		\hline
+		TEAM MEMBER        &   & ID        \\
+		\hline
+		Himanshu Singhal             &   & 201551014 \\
+		Piyush Sikarawal          &   & 201551020 \\
+		Saurabh Srivastava              &   & 201551032 \\
+	    Deeoak Sandrana     &   & 201551033 \\
+		Sakshee Jain    &   & 201551074 \\
+		Neelansh Sahai    &   & 201551086 \\ 
+		\hline
+	\end{tabular}
+	
+\end{center}
+\newpage
+\tableofcontents
+	\newpage
+\section{NEGATIVE RISKS}
+\subsection{SERVER CRASH}
+The extension collects and displays data using the API's(i.e data delivered to extension by corresponding platform API's). In this process whenever a particular networking platform crashes(Webserver crash or Website crash like facebook or github or quora server crash) we will not be able to display that data of the corresponging platform.  
+\subsection{WEB CRASH}
+The required methods and parameters may not be available in the particular platform API. The user may want a website or wweb platfrom to be included for which no API for data extraction is available.
+\subsection{PRIVACY}
+One big obstacle may be the reluctance of users to share personal information with the platform. Trust develops with time. The mining of a user’s social data—which allows us to understand user behavior, identify their preferences, and align their service and product offerings with the expectations of the user. Since we are able to get these information but it would be against the user's privacy.
+
+\subsection{}
+In order to use the APIs we will first need to setup scripts to create queries on behalf of our extension with OAuth based requests. Users will authenticate against our extension with their account credentials and we can then access their data with the resulting user access-token. There may come situations when there is delay or error in generation of these access-tokens due to invalid user-credentials or network error.
+
+\subsection{LIMITED TIME DOMAIN}
+For some networking platforms the access-tokens are generated for a fixed amount of time means they have an expiring time like cookies. So if we are unable to perform data extraction within that period no data would be obtained of user.
+
+\subsection{}
+Access-Tokens need to be stored somewhere (local/session storage or cookies) so any other malicious programmer with wrong intensions should not be able to access these access-tokens stored locally without the user's knowing.
+
+\section{POSITIVE RISKS}
+\subsection{}
+We may find a senior or professional help working in same domain whose guidance can speed up our project completion and 
+\subsection{}
+\end{document}
