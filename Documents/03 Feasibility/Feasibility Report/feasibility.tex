@@ -1,0 +1,157 @@
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabu}
+\usepackage[table]{xcolor}
+ 
+
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.6}
+\renewcommand{\today}{September 7 , 2017}
+
+
+\begin{document}
+
+\begin{titlepage}
+		\begin{center}
+			
+			%\vspace*{1cm}
+			
+			\LARGE{\textbf{Feasibility Report}}
+			
+			\vspace{1.5cm}
+			
+			\textbf{Glancify}\\
+			
+			\small{Version 1.0}
+			\vspace{2cm}
+		 
+        	
+			
+			\vspace{1.5cm}
+			
+			\today
+			
+			\vspace{5cm}
+			\includegraphics[width=0.17\textwidth]{iiitvlogo.png} \\
+			\Large{Indian Institute of Information Technology Vadodara} \\
+			
+		\end{center}
+	\end{titlepage}
+	\newpage
+\textbf{Team members :} \\
+\begin{center}
+	\begin{tabular}{ |m{10em} m{8em} m{9em}|}
+		\hline
+		TEAM MEMBER        &   & ID        \\
+		\hline
+		Himanshu Singhal             &   & 201551014 \\
+	Piyush Sikarawal          &   & 201551020 \\
+		Saurabh Srivastava              &   & 201551032 \\
+	    Deepak Sandrana     &   & 201551033 \\
+		Sakshee Jain    &   & 201551074 \\
+		Neelansh Sahai    &   & 201551086 \\ 
+		\hline
+	\end{tabular}
+	
+\end{center}
+
+	\newpage
+	\tableofcontents
+	\newpage
+	
+	\section{Document Purpose }
+	 The document specifies the domains for project decided at beginning and their feasibility analysis for the selection of one domain to pursue.
+    \section{Domains}
+    There were 3 main problem domains to select from:
+    \subsection{Tourist Guide}
+    This aims to act as a user's travel guide and schedule his/her time to travel to maximum places possible in a particular tourist area in constrained time.
+     This will include the visiting places in a city and a scheduler which plans our trip so that we could travel all the places in a city with limited time.
+
+    
+    \subsection{Glancify}
+    This aims to design a Software solution where user can have a glance of all of his/her preferred social networking platform in an arranged and sorted manner.
+    
+    \subsection{Schedular Application}
+    This aims to design a scheduler for academics specifying all the time slots of each semester providing access to the faculty, administration, and as well as the students where faculties can specify classes in free time slots and students would get notified for the class arranged.
+    
+    \section{Scope}
+    \subsection{Tourist Guide}
+    
+    \begin{itemize}
+        \item \textbf{Pro :} This will be a utility that will allow users to have a digital assistant, which will allow user to travel to various places in a specific time with a guide. People, who love travelling, new comer, tourists, etc. can be benefited by this application. 
+        \item \textbf{Con :} The task is really lengthy, since the data set would be very large because of huge amount of places to travel and variable user preferences. Also, we need to collect and verify the data manually for different cities and places.
+    \end{itemize}
+    
+    \subsection{Glancify}
+    \begin{itemize}
+        \item \textbf{Pro :} This will be a great utility allowing users to have a glance at all of their notifications at one place at one click according to the preference. People spending time on SNPs will be clients for this software solution.
+        
+        \item \textbf{Con :} The con is really not much in this application apart from the user's not using any social networking platform(as such minimal are there).
+	 
+     
+    \end{itemize}
+    
+    
+	\subsection{Academic Calender}
+	\begin{itemize}
+	    \item 
+	\textbf{Pro :} This will allow the user to get notified for classes arranged in institution by faculty. Students studying, faculties and administration of the institution would get benefit of this. 
+	\item
+	\textbf{Con :} This would not be of a great utility as Google calender does the exact same thing with extra features. So, making this application would not be a fruitful task.
+	Speaking collectively, this utility can be used in many other cases without demanding any change in network architecture.
+	\end{itemize}
+    
+	\section{Abstract}
+    The problem of accessing any Social Networking Platforms to read notifications every time in new tab for each separate platform is a very hectic task. Therefore we intend to aid the user to have a glance through his notifications for every platform in a single new tab at one place. To provide this solution we are making Google chrome extension to access user's account using APIs available for each of these social networking platforms. At first user will have to provide his account credentials that would be used by the extension to generate OAuth tokens through API for the particular platform, these OAuth tokens would be a temporary credential to access user's account real time data(notifications). We will provide user with authority to log off from any platform from extension.
+	    
+	    
+	\section{Alternate Solutions}
+	\subsection{Desktop app}
+    Desktop application usually have more control over a users computer compared to a web application. In this we can access previously stored data without internet connectivity.
+        The cost of Desktop application and its maintenance is high as it needs to be manually updated (or at least have manual approval) to install updates.
+        Also it takes more time to implement GUI(Graphics User Interface).  
+	\subsection{Web app}
+	Web applications avoid the burden in deploying in each client machine and adopt easily in mobile applications. The cost of creating web app is more since it requires use of bootstrap, heavy templates and web hosting.
+	\subsection{Extension}
+	Extension is more adequate in extracting and displaying user-data in one place in one click. It can be disabled and enabled in one click according to need with more broad scope in Google chrome store.
+	Cost of designing Google chrome extension is less in cost and time due to availability of official developer documents from Google.
+	
+	\section{Analysis}
+	Considering the pros and cons of all domains specified, the making of Glancify extension is decided having maximum utility.    
+	\subsection{Technical Feasibility}
+	The proposed project is technically feasible. We have decided to divide the
+group into two parts: Backend team and Web development team.\\ 
+	\begin{itemize}
+	    \item \textbf{Chrome Plugin :} It will use Javascript and Json for coding which is known by
+almost all team members but we have to learn how to make plugins.
+	\item \textbf{Web Interface:} The application will mainly use Material Design as front-end
+along with HTML, CSS, Javascript.
+	
+	\item \textbf{Back-End :} The back-end of the application will be built using JS, Python, APIs - tweepy, graph API, etc. The members in the group can handle this
+language.
+    \end{itemize}
+	
+\hspace{10pt}	
+	Everyone in our team is experienced with front-end languages specified above and few of us have an experience with APIs in previous projects. As a matter of back-end our team has started working on js since few are comfortable in python and few in js.
+	
+	\subsection{Social Feasibility}
+	As a matter of social feasibility we took survey which states the maximum use (86\%) of extension while having a glance of all notifications at one click.\\Almost everyone who uses Google chrome  browser and accesses social networking platforms like Facebook, quora, twitter etc. will come under scope of this project.\\The social feasibility is really high since every age group of society use these SNPs and will want to have ease to glance and access their notifications.
+	\section{Problem Analysis}
+	\subsection{Input:} 
+	User Credentials : User Id and Password for different Social Networking Platforms.
+	\subsection{Process:} Process involves fetching of live data from different Social Networking Platforms, using APIs calls. 
+	\subsection{Output:} 
+	Using the fetched data, Display the recent notifications in sorted and preferred order.
+	
+    \section{Integrated Analysis}
+    On the whole the project is feasible as both technical and social. The project
+also meet the time constraint. Team members have past experience of
+making such projects. The team has enough confidence based on skills and past
+performances that we can complete this project on time.
+	\newpage
+	
+	
+\end{document}
