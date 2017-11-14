@@ -16,14 +16,13 @@
     "page": "custom_newtab.html"
   },
 
+  "chrome_url_overrides": {
+    "newtab": "newtab_notification.html"
+  },
+
   "permissions": [
     "notifications",
     "https://twitter.com/i/notifications"
-  ],
-
-
-  "chrome_url_overrides": {
-    "newtab": "custom_newtab.html"
-  }
+  ]
 
 }
