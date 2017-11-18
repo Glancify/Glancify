@@ -5,11 +5,6 @@
   "description": "This extensions collects your News Feeds and Notfications and displays it on the New Tab",
   "version": "1.0",
 
-  "browser_action": {
-    "default_icon": "default.png",
-    "default_popup": "main_popup.html"
-  },
-
   "icons": {
     "16": "16.png",
     "32": "32.png",
@@ -17,7 +12,17 @@
     "128": "128.png"
   },
 
+  "background": {
+    "page": "custom_newtab.html"
+  },
+
   "chrome_url_overrides": {
-    "newtab": "custom_newtab.html"
-  }
+    "newtab": "newtab_notification.html"
+  },
+
+  "permissions": [
+    "notifications",
+    "https://twitter.com/i/notifications"
+  ]
+
 }
