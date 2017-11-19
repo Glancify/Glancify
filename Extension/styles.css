@@ -1,17 +1,17 @@
 body
 {
-	background-color:#FFFFF0;
+	background-color:#00ACC1;
 }
 
 .row1
 {
 	background-color: white;
-    
+
     height: 75%;
     margin-top: 3%;
     margin-bottom: 2%;
     margin-left: 5%;
-    
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     overflow: auto;
@@ -94,14 +94,14 @@ img
   background-size: cover;
 }
 /* carousel */
-.media-carousel 
+.media-carousel
 {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
   margin-top: 30px;
 }
 /* Previous button  */
-.media-carousel .carousel-control.left 
+.media-carousel .carousel-control.left
 {
   left: -12px;
   background-image: none;
@@ -113,7 +113,7 @@ img
   margin-top: 30px
 }
 /* Next button  */
-.media-carousel .carousel-control.right 
+.media-carousel .carousel-control.right
 {
   right: -12px !important;
   background-image: none;
@@ -125,7 +125,7 @@ img
   margin-top: 30px
 }
 /* Changes the position of the indicators */
-.media-carousel .carousel-indicators 
+.media-carousel .carousel-indicators
 {
   right: 50%;
   top: auto;
@@ -133,11 +133,11 @@ img
   margin-right: -19px;
 }
 /* Changes the colour of the indicators */
-.media-carousel .carousel-indicators li 
+.media-carousel .carousel-indicators li
 {
   background: #c0c0c0;
 }
-.media-carousel .carousel-indicators .active 
+.media-carousel .carousel-indicators .active
 {
   background: #333333;
 }
@@ -195,16 +195,15 @@ margin-left: 15px;
 font-size: 16px;
 }
 .logo img{
-	width: 5%;
+	width: 20%;
+	margin-top: 20px;
 }
 .logo {
     text-align: center;
-   
+
     margin-bottom: -6%;
 }
-body{
-	background-image: url('petrol.jpg');
-}
+
 
 .image {
   max-width: 100%;
@@ -215,8 +214,9 @@ body{
   margin-left: 15px;
 }
 .socialMedia  img{
-  width: 100%;
-  height: 60px;
+  width: 128px;
+  height: 128px;
+	margin: auto;
 }
 /*.carousel-inner>.item.active{
   -webkit-box-shadow: inset 1600px 50px 0px 0px rgba(0,0,0,0.8);
