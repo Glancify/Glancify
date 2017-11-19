@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Myapplication</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link type="text/css" rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $val =0;
+  if($val == 0){
+  $("#btnclick").click(function(){
+      $val = 1;
+      $("#divpopup").dialog({
+
+      }).prev(".ui-dialog-titlebar").css("background","grey").prev(".ui-dialog-title").css("align","center");
+
+  });
+}
+if($val == 0){
+  $("#btnclick1").click(function(){
+     $val = 1;
+      $("#divpopup1").dialog({
+
+      }).prev(".ui-dialog-titlebar").css("background","grey").prev(".ui-dialog-title").css("align","center");
+
+  });
+}
+if($val == 0){
+  $("#btnclick2").click(function(){
+     $val =1;
+      $("#divpopup2").dialog({
+
+      }).prev(".ui-dialog-titlebar").css("background","grey").prev(".ui-dialog-title").css("align","center");
+
+  });
+}
+if($val == 0){
+  $("#btnclick3").click(function(){
+    $val =1;
+      $("#divpopup3").dialog({
+
+      }).prev(".ui-dialog-titlebar").css("background","grey").prev(".ui-dialog-title").css("align","center");
+
+  });
+}
+
+});
+</script>
+
+</head>
+<body>
+<header>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+
+    </div>
+    <div class="col-md-8 col-sm-6">
+   <h1><B><center>Glancify</center></B></h1>
+ </div>
+  </div>
+</div>
+
+</header>
+
+<div class="card" id="divpopup"  style="display:none" title="facebook signin">
+<div class="container">
+<button type="submit" id="button" class="btn btn-primary" name="button">Signin via facebook</button>
+</div>
+
+</div>
+
+<div class="card" id="divpopup1"  style="display:none" title="quora signin">
+
+
+<div class="container">
+<button type="submit" id="button" class="btn btn-primary" name="button">Signin via quora</button>
+</div>
+
+
+</div>
+
+<div class="card" id="divpopup2"  style="display:none" title="googel-plus signin">
+
+<div class="container">
+<button type="submit" id="button" class="btn btn-primary" name="button">Signin via google-plus</button>
+</div>
+
+</div>
+<div class="card" id="divpopup3"  style="display:none" title="linkedin signin">
+
+<div class="container">
+<button type="submit" id="button" class="btn btn-primary" name="button">Signin via linkedin</button>
+</div>
+
+</div>
+<div class="myclass">
+  <div class="card">
+
+
+ <div class="container">
+
+   <div class="row">
+     <div class="col-md-2 col-sm-12">
+       Login through faceboook
+     </div>
+<div class="col-md-2 col-sm-12">
+  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+</div>
+<div class="col-md-2 col-sm-12">
+  <h4>facebook</h4>
+</div>
+<div class="col-md-1 col-sm-12">
+  <button type="submit" id="btnclick" class="btn btn-primary" name="button"><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i></button>
+
+</div>
+<div class="col-md-3 col-sm-12">
+
+</div>
+
+   </div>
+  </div>
+
+</div>
+  <div class="card">
+<div class="container">
+
+
+
+  <div class="row">
+    <div class="col-md-2 col-sm-12">
+       Login through quora
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <i class="fa fa-quora fa-2x" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <h4>quora</h4>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <button type="submit" id="btnclick1" class="btn btn-primary" name="button"><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i></button>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="card">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 col-sm-12">
+        Login through google-plus
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <h4>google-plus</h4>
+    </div>
+    <div class="col-md-4 col-sm-12">
+
+    <button type="submit" id="btnclick2" class="btn btn-primary" name="button"><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i></button>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-2 col-sm-12">
+          Login through Linkedin
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <h4>linkedin</h4>
+    </div>
+
+    <div class="col-md-4 col-sm-12">
+  <button type="submit" id="btnclick3" class="btn btn-primary" name="button"><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i></button>
+
+    </div>
+
+</div>
+
+
+</div>
+</div>
+  </body>
+</html>
