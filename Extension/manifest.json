@@ -5,19 +5,23 @@
   "description": "This extensions collects your News Feeds and Notfications and displays it on the New Tab",
   "version": "1.0",
 
+  "browser_action": {
+    "default_popup": "extension_popup.html"
+  },
+
   "icons": {
-    "16": "16.png",
-    "32": "32.png",
-    "64": "64.png",
-    "128": "128.png"
+    "16": "Images/glancify_icon.png",
+    "32": "Images/glancify_icon.png",
+    "64": "Images/glancify_icon.png",
+    "128": "Images/glancify_icon.png"
   },
 
   "background": {
-    "page": "custom_newtab.html"
+    "page": "extension_newtab.html"
   },
 
   "chrome_url_overrides": {
-    "newtab": "newtab_notification.html"
+    "newtab": "extension_newtab.html"
   },
 
   "permissions": [

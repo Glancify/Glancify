@@ -1,0 +1,39 @@
+body {
+    min-width:350px;
+    background-color: #B0E0E6;
+}
+.myclass{
+  margin-right: 2cm;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.card {
+    margin: 0px 1px 2px 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    background-color: #E47297;
+    padding: 2px 16px;
+}
+#button{
+  position: absolute;
+  top: 50%;
+  margin-left: 50px;
+}
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('YOUNGATHEART.ttf');
+}
+
+h1 {
+  font-family: 'MyWebFont';
+}
