@@ -24,9 +24,12 @@
     "newtab": "extension_newtab.html"
   },
 
+
   "permissions": [
     "notifications",
-    "https://twitter.com/i/notifications"
+    "https://twitter.com/i/notifications",
+    "https://www.linkedin.com/notifications/",
+    "https://www.quora.com/notifications",
+    "https://www.youtube.com/"
   ]
-
 }
