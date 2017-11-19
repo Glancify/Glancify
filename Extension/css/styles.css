@@ -1,11 +1,11 @@
 body
 {
-	background-color:#00ACC1;
+    background-color:#00ACC1;
 }
 
 .row1
 {
-	background-color: white;
+    background-color: white;
 
     height: 75%;
     margin-top: 3%;
@@ -19,53 +19,53 @@ body
     max-width: 27%;
 }
 .row{
-	margin-left: 0 !important;
-	margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 .scroll
 {
-	overflow-x: scroll;
+    overflow-x: scroll;
 }
 
 img
 {
-	width: 100%
+    width: 100%
 }
 
 .secLeft
 {
-	padding-left:0px;
-	padding-right:0px;
+    padding-left:0px;
+    padding-right:0px;
 }
 
 .secRight
 {
-	padding-left:0px;
-	padding-right:0px;
+    padding-left:0px;
+    padding-right:0px;
 }
 
 .secRight h1
 {
-	text-align: center;
+    text-align: center;
 }
 
 .secRight p
 {
-	padding-left:5%;
-	padding-right:5%;
+    padding-left:5%;
+    padding-right:5%;
 
 }
 
 .socialMedia{
-	height: 20%;
+    height: 20%;
   margin-top: 5%;
 }
 
 .bc {
-	background-color: yellow
+    background-color: yellow
 }
 .container-fluid{
-	width: 240% !important;
+    width: 240% !important;
 }
 .carousel-control {
     position: absolute;
@@ -179,7 +179,7 @@ img
     border-bottom: 2px solid #006699 !important;
 }
 #card{
-	margin-top: 2%;
+    margin-top: 2%;
 }
 
 .list img {
@@ -187,16 +187,16 @@ img
     border-radius: 100%;
 }
 .list{
-	padding-top: 10%;
+    padding-top: 10%;
 }
 .heading{
-	margin-top: 5px;
+    margin-top: 5px;
 margin-left: 15px;
 font-size: 16px;
 }
 .logo img{
-	width: 20%;
-	margin-top: 20px;
+    width: 20%;
+    margin-top: 20px;
 }
 .logo {
     text-align: center;
@@ -216,7 +216,7 @@ font-size: 16px;
 .socialMedia  img{
   width: 128px;
   height: 128px;
-	margin: auto;
+    margin: auto;
 }
 /*.carousel-inner>.item.active{
   -webkit-box-shadow: inset 1600px 50px 0px 0px rgba(0,0,0,0.8);

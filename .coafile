@@ -1,0 +1,21 @@
+[global]
+bears = coalaBear
+files = **.yml, **.html, **.md, **.js, **.css
+
+[linecount]
+files = **.yml, **.html, **.md, **.js
+bears = LineCountBear
+max_lines_per_file = 130
+
+[spacing]
+bears = SpaceConsistencyBear
+files = **.html, **.css
+use_spaces = True
+
+[html]
+bears = HTMLLintBear
+files = **.html
+
+[yml]
+bears = YAMLLintBear
+files = **.yml
