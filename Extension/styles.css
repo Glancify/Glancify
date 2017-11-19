@@ -2,16 +2,7 @@ body
 {
 	background: linear-gradient(321deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
-.row1:hover {
-	box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
-}
-.arrow {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-radius: 30px;
-}
-.arrow:hover {
-	box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
-}
+
 .row1
 {
 	background-color: white;
@@ -22,7 +13,7 @@ body
     margin-left: 5%;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 7px;
+    border-radius: 5px;
     overflow: auto;
     float: left;
     max-width: 27%;
