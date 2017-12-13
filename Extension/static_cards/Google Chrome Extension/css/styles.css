@@ -1,0 +1,230 @@
+body
+{
+    background: linear-gradient(321deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    overflow: hidden;
+}
+.row1:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
+}
+.arrow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+.arrow:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
+}
+.row1
+{
+    background-color: white;
+
+    height: 75%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    overflow: auto;
+    float: left;
+    max-width: 27%;
+}
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.scroll
+{
+    overflow-x: scroll;
+}
+
+img
+{
+    width: 100%
+}
+
+.secLeft
+{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.secRight
+{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.secRight h1
+{
+    text-align: center;
+}
+
+.secRight p
+{
+    padding-left:5%;
+    padding-right:5%;
+
+}
+
+.socialMedia{
+    height: 20%;
+    margin-top: 5%;
+}
+
+.bc {
+    background-color: yellow
+}
+.container-fluid{
+    width: 240% !important;
+}
+.carousel-control {
+    position: absolute;
+    top: 40%;
+    bottom: -8px;
+    left: 1%;
+    width: 0%;
+    font-size: 65px;
+    color:black;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.carousel-control.right {
+    right: 6% !important;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* carousel */
+.media-carousel
+{
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+    margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+    left: -12px;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width : 40px;
+    margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+    right: -12px !important;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width : 40px;
+    margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+    background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+    background: #333333;
+}
+
+.catslider{
+    padding-top: 0% !important;
+
+}
+/* End carousel */
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+
+
+.nav-tabs > li > a:hover {
+    border-color:none;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: none !important;
+    border-radius: 4px 4px 0 0;
+    color: #605555 !important;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #07264e !important;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-bottom: 2px solid #006699 !important;
+}
+#card{
+    margin-top: 2%;
+}
+
+.list img {
+    width: 50px;
+    border-radius: 100%;
+}
+.list{
+    padding-top: 10%;
+}
+.heading{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.logo img{
+    width: 20%;
+    margin-top: 20px;
+}
+.logo {
+    text-align: center;
+
+    margin-bottom: -6%;
+}
+
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+.glyphicon{
+    margin-left: 15px;
+}
+.socialMedia  img{
+    width: 128px;
+    height: 128px;
+    margin: auto;
+}
