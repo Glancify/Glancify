@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Glancify",
-  "description": "This extensions collects your News Feeds and Notfications and displays it on the New Tab",
+  "description": "This extension collects News Feeds and Notfications to display on the New Tab",
   "version": "1.0",
 
   "browser_action": {
@@ -17,7 +17,8 @@
   },
 
   "background": {
-    "page": "extension_newtab.html"
+    "page": "extension_newtab.html",
+    "persistent": false
   },
 
   "chrome_url_overrides": {
@@ -31,13 +32,9 @@
     "https://github.com/notifications",
     "https://www.codechef.com/",
     "https://www.linkedin.com/notifications",
-    "https://www.facebook.com/notifications",
     "https://apis.google.com/js/api.js",
     "https://www.hackerrank.com/notifications",
-    "https://www.instagram.com/",
-    "https://www.instagram.com/?hl=en",
     "https://www.hackerrank.com/contests"
-      
   ]
 
   
