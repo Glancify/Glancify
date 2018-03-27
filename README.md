@@ -13,7 +13,7 @@ The project includes following Social Medias-
 
 * Quora
 * Github
-* Codeshef
+* Codechef
 * Hackerrank
 * Cricbuzz
 * Twitter
