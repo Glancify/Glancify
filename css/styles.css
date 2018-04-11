@@ -9,6 +9,7 @@ body
 .arrow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 30px;
+    transition: all .3s ease;
 }
 .arrow:hover {
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
@@ -27,6 +28,7 @@ body
     overflow: auto;
     float: left;
     max-width: 27%;
+    transition: all .3s ease;
 }
 .row{
     margin-left: 0 !important;
@@ -227,4 +229,5 @@ img
     width: 128px;
     height: 128px;
     margin: auto;
+    transition: all .3s ease;
 }

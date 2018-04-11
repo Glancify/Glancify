@@ -11,12 +11,12 @@ A Chrome Extension and Mozilla Addon which will display notifications from diffe
 
 The project includes following Social Medias-
 
-* Quora
-* Github
-* Codechef
-* Hackerrank
-* Cricbuzz
-* Twitter
+* [Quora](https://www.quora.com/)
+* [Github](https://github.com/)
+* [Codechef](https://www.codechef.com/)
+* [Hackerrank](https://www.hackerrank.com/)
+* [Cricbuzz](http://www.cricbuzz.com/)
+* [Twitter](https://twitter.com/)
 
 ## Contributors
 * [Saurabh Srivastava](https://github.com/simsausaurabh)
