@@ -61,4 +61,20 @@ If you can't find the button on the top of the page, make sure that Developer mo
 Report any issue or bug here:
 * [Issue Tracker](https://github.com/Glancify/Glancify/issues)
 
+## How can I contribute?
+
+There are a lot of [issues](https://github.com/Glancify/Glancify/issues) you can solve.
+They are either
+
+- easy to do and introduce you to github and git
+- or describe clearly how to solve the problem, so you have smoother start.
+
+If you want to solve an issue, please comment in it that you would like to solve it.
+In any case, if you run into problems, please report them in the issue.
+
+
+Have fun!
+
+Glancify Team
+
 <p align="center"> Made from scratch with ❤ </p>
