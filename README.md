@@ -3,6 +3,7 @@
 # Glancify
 [![Gitter Room](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Glancify-Organisation/Lobby)
 [![Build Status](https://travis-ci.org/Glancify/Glancify.svg?branch=master)](https://travis-ci.org/Glancify/Glancify)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/loklak/loklak_server.svg)](http://isitmaintained.com/project/loklak/loklak_server "Percentage of issues still open")
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
