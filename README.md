@@ -30,12 +30,6 @@ The project includes following Social Medias-
 * [Himanshu Singhal](https://github.com/himanshusn)
 * [Deepak Sandrana](https://github.com/DeepakSandy)
 
-
-
-
-
-
-
 ## Installation
 
  - Get it locally -
@@ -60,6 +54,10 @@ If you can't find the button on the top of the page, make sure that Developer mo
 
 Report any issue or bug here:
 * [Issue Tracker](https://github.com/Glancify/Glancify/issues)
+
+## What is the software license?
+
+[LGPL 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1)
 
 ## How can I contribute?
 
