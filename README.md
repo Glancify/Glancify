@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.org/Glancify/Glancify.svg?branch=master)](https://travis-ci.org/Glancify/Glancify)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/glancify/glancify.svg)](http://isitmaintained.com/project/glancify/glancify "Percentage of issues still open")
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/glancify/glancify.svg)](http://isitmaintained.com/project/glancify/glancify "Average time to resolve an issue")
+[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=https://twitter.com/intent/tweet?text=Check%20out%20Glancify%20-%20An%20awesome%20Google%20Chrome%20Extension%20on%20@gitHub:%20https://github.com/glancify/glancify)
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
