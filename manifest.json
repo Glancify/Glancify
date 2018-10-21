@@ -1,6 +1,5 @@
 {
   "manifest_version": 2,
-
   "name": "Glancify",
   "description": "This extension collects News Feeds and Notfications to display on the New Tab",
   "version": "1.0",
@@ -36,7 +35,4 @@
     "https://www.hackerrank.com/notifications",
     "https://www.hackerrank.com/contests"
   ]
-
-  
-
 }
