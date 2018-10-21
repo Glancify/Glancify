@@ -1,5 +1,3 @@
-
-
 # Glancify
 [![Gitter Room](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Glancify-Organisation/Lobby)
 [![Build Status](https://travis-ci.org/Glancify/Glancify.svg?branch=master)](https://travis-ci.org/Glancify/Glancify)
@@ -11,9 +9,9 @@
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](http://forthebadge.com)
 
-A Chrome Extension and Mozilla Addon which will display notifications from different social networking sites in one tab.
+A Chrome Extension and Mozilla Add-on to display notifications from different social networking platforms in one tab.
 
-The project includes following Social Medias-
+The project includes following Social Media -
 
 * [Quora](https://www.quora.com/)
 * [Github](https://github.com/)
@@ -48,7 +46,7 @@ The project includes following Social Medias-
  - To test it, go and signIn to different social network platforms.
 
 
-##### Note
+## Note
 
 If you can't find the button on the top of the page, make sure that Developer mode is enabled [here](https://developer.chrome.com/extensions/faq#faq-dev-01).
 
