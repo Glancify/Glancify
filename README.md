@@ -20,6 +20,12 @@ The project includes following Social Media -
 * [Cricbuzz](http://www.cricbuzz.com/)
 * [Twitter](https://twitter.com/)
 
+![screenshot from 2018-11-08 13-04-51](https://user-images.githubusercontent.com/16608864/48184501-3aec6c00-e358-11e8-9261-cd7289db40d7.png)
+
+![screenshot from 2018-11-08 13-13-03](https://user-images.githubusercontent.com/16608864/48184510-3f188980-e358-11e8-8857-6cc59687d0f7.png)
+
+![screenshot from 2018-11-08 13-06-07](https://user-images.githubusercontent.com/16608864/48184507-3d4ec600-e358-11e8-8a26-a762864a672a.png)
+
 ## Contributors
 * [Saurabh Srivastava](https://github.com/simsausaurabh)
 * [Piyush Sikarwal](https://github.com/psikarwal/)
